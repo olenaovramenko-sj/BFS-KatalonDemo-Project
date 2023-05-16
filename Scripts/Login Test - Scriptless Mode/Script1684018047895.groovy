@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('https://example.testproject.io/')
 
+WebUI.maximizeWindow()
+
 WebUI.setText(findTestObject('Login page/Page_TestProject Demo/input_Full Name_name'), FullName)
 
 WebUI.setText(findTestObject('Login page/Page_TestProject Demo/input_Password_password'), Password)
@@ -26,6 +28,8 @@ WebUI.setText(findTestObject('Login page/Page_TestProject Demo/input_Password_pa
 WebUI.click(findTestObject('Login page/Page_TestProject Demo/button_Login'))
 
 WebUI.verifyElementPresent(findTestObject('Login page/Page_TestProject Demo/h1_TestProject Example page'), 0)
+
+WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Login page/Page_TestProject Demo/button_Logout'))
 
