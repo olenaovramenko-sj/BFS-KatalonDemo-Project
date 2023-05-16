@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+S1 Smoke test login automation,Chrome 113.0.0.0,,,2023-05-15 15:15:20,2023-05-15 15:16:04,43.939s,FAILED
+,,,,,,,
+Test Cases/Login Test - Script Mode,Chrome 113.0.0.0,,,2023-05-15 15:15:54,2023-05-15 15:16:04,9.808s,FAILED
+"openBrowser(""https://example.testproject.io/"")",Chrome 113.0.0.0,,,2023-05-15 15:15:54,2023-05-15 15:16:01,6.682s,PASSED
+maximizeWindow(),Chrome 113.0.0.0,,,2023-05-15 15:16:01,2023-05-15 15:16:01,0.500s,PASSED
+"setText(findTestObject(""Object Repository/Login page/Page_TestProject Demo/input_Full Name_name""), ""Robert"")",Chrome 113.0.0.0,,,2023-05-15 15:16:01,2023-05-15 15:16:02,1.109s,PASSED
+"setText(findTestObject(""Object Repository/Login page/Page_TestProject Demo/input_Password_password""), ""12345"")",Chrome 113.0.0.0,,,2023-05-15 15:16:02,2023-05-15 15:16:02,0.003s,NOT_RUN
+"click(findTestObject(""Object Repository/Login page/Page_TestProject Demo/button_Login""))",Chrome 113.0.0.0,,,2023-05-15 15:16:03,2023-05-15 15:16:03,0.435s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Login page/Page_TestProject Demo/h1_TestProject Example page""), 5)",Chrome 113.0.0.0,,,2023-05-15 15:16:03,2023-05-15 15:16:03,0.290s,PASSED
+"click(findTestObject(""Object Repository/Login page/Page_TestProject Demo/button_Logout""))",Chrome 113.0.0.0,,,2023-05-15 15:16:03,2023-05-15 15:16:04,0.654s,FAILED
+closeBrowser(),Chrome 113.0.0.0,,,2023-05-15 15:16:04,2023-05-15 15:16:04,0.112s,PASSED

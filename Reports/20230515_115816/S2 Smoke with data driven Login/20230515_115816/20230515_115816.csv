@@ -1,0 +1,47 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+S2 Smoke with data driven Login,Chrome 113.0.0.0,,,2023-05-15 11:58:18,2023-05-15 11:59:26,1m - 7.164s,FAILED
+,,,,,,,
+Test Cases/Login Test - Scriptless Mode,Chrome 113.0.0.0,,,2023-05-15 11:58:19,2023-05-15 11:58:33,14.359s,PASSED
+"openBrowser(""https://example.testproject.io/"")",Chrome 113.0.0.0,,,2023-05-15 11:58:19,2023-05-15 11:58:29,9.838s,PASSED
+"setText(findTestObject(""Login page/Page_TestProject Demo/input_Full Name_name""), FullName)",Chrome 113.0.0.0,,,2023-05-15 11:58:29,2023-05-15 11:58:30,1.244s,PASSED
+"setText(findTestObject(""Login page/Page_TestProject Demo/input_Password_password""), Password)",Chrome 113.0.0.0,,,2023-05-15 11:58:30,2023-05-15 11:58:31,0.719s,PASSED
+"click(findTestObject(""Login page/Page_TestProject Demo/button_Login""))",Chrome 113.0.0.0,,,2023-05-15 11:58:31,2023-05-15 11:58:32,0.607s,PASSED
+"verifyElementPresent(findTestObject(""Login page/Page_TestProject Demo/h1_TestProject Example page""), 0)",Chrome 113.0.0.0,,,2023-05-15 11:58:32,2023-05-15 11:58:32,0.401s,PASSED
+"click(findTestObject(""Login page/Page_TestProject Demo/button_Logout""))",Chrome 113.0.0.0,,,2023-05-15 11:58:32,2023-05-15 11:58:33,1.036s,PASSED
+closeBrowser(),Chrome 113.0.0.0,,,2023-05-15 11:58:33,2023-05-15 11:58:33,0.110s,PASSED
+,,,,,,,
+Test Cases/Login Test - Scriptless Mode,Chrome 113.0.0.0,,,2023-05-15 11:58:33,2023-05-15 11:58:44,10.760s,PASSED
+"openBrowser(""https://example.testproject.io/"")",Chrome 113.0.0.0,,,2023-05-15 11:58:33,2023-05-15 11:58:40,6.622s,PASSED
+"setText(findTestObject(""Login page/Page_TestProject Demo/input_Full Name_name""), FullName)",Chrome 113.0.0.0,,,2023-05-15 11:58:40,2023-05-15 11:58:41,1.213s,PASSED
+"setText(findTestObject(""Login page/Page_TestProject Demo/input_Password_password""), Password)",Chrome 113.0.0.0,,,2023-05-15 11:58:41,2023-05-15 11:58:42,0.765s,PASSED
+"click(findTestObject(""Login page/Page_TestProject Demo/button_Login""))",Chrome 113.0.0.0,,,2023-05-15 11:58:42,2023-05-15 11:58:43,0.556s,PASSED
+"verifyElementPresent(findTestObject(""Login page/Page_TestProject Demo/h1_TestProject Example page""), 0)",Chrome 113.0.0.0,,,2023-05-15 11:58:43,2023-05-15 11:58:43,0.411s,PASSED
+"click(findTestObject(""Login page/Page_TestProject Demo/button_Logout""))",Chrome 113.0.0.0,,,2023-05-15 11:58:43,2023-05-15 11:58:44,1.070s,PASSED
+closeBrowser(),Chrome 113.0.0.0,,,2023-05-15 11:58:44,2023-05-15 11:58:44,0.105s,PASSED
+,,,,,,,
+Test Cases/Login Test - Scriptless Mode,Chrome 113.0.0.0,,,2023-05-15 11:58:44,2023-05-15 11:58:55,10.632s,PASSED
+"openBrowser(""https://example.testproject.io/"")",Chrome 113.0.0.0,,,2023-05-15 11:58:44,2023-05-15 11:58:51,6.465s,PASSED
+"setText(findTestObject(""Login page/Page_TestProject Demo/input_Full Name_name""), FullName)",Chrome 113.0.0.0,,,2023-05-15 11:58:51,2023-05-15 11:58:52,1.288s,PASSED
+"setText(findTestObject(""Login page/Page_TestProject Demo/input_Password_password""), Password)",Chrome 113.0.0.0,,,2023-05-15 11:58:52,2023-05-15 11:58:53,0.757s,PASSED
+"click(findTestObject(""Login page/Page_TestProject Demo/button_Login""))",Chrome 113.0.0.0,,,2023-05-15 11:58:53,2023-05-15 11:58:53,0.588s,PASSED
+"verifyElementPresent(findTestObject(""Login page/Page_TestProject Demo/h1_TestProject Example page""), 0)",Chrome 113.0.0.0,,,2023-05-15 11:58:53,2023-05-15 11:58:54,0.402s,PASSED
+"click(findTestObject(""Login page/Page_TestProject Demo/button_Logout""))",Chrome 113.0.0.0,,,2023-05-15 11:58:54,2023-05-15 11:58:55,1.009s,PASSED
+closeBrowser(),Chrome 113.0.0.0,,,2023-05-15 11:58:55,2023-05-15 11:58:55,0.109s,PASSED
+,,,,,,,
+Test Cases/Login Test - Scriptless Mode,Chrome 113.0.0.0,,,2023-05-15 11:59:05,2023-05-15 11:59:15,9.843s,FAILED
+"openBrowser(""https://example.testproject.io/"")",Chrome 113.0.0.0,,,2023-05-15 11:59:05,2023-05-15 11:59:12,6.560s,PASSED
+"setText(findTestObject(""Login page/Page_TestProject Demo/input_Full Name_name""), FullName)",Chrome 113.0.0.0,,,2023-05-15 11:59:12,2023-05-15 11:59:13,1.065s,PASSED
+"setText(findTestObject(""Login page/Page_TestProject Demo/input_Password_password""), Password)",Chrome 113.0.0.0,,,2023-05-15 11:59:13,2023-05-15 11:59:13,0.720s,PASSED
+"click(findTestObject(""Login page/Page_TestProject Demo/button_Login""))",Chrome 113.0.0.0,,,2023-05-15 11:59:13,2023-05-15 11:59:14,0.520s,PASSED
+"verifyElementPresent(findTestObject(""Login page/Page_TestProject Demo/h1_TestProject Example page""), 0)",Chrome 113.0.0.0,,,2023-05-15 11:59:14,2023-05-15 11:59:14,0.305s,PASSED
+"click(findTestObject(""Login page/Page_TestProject Demo/button_Logout""))",Chrome 113.0.0.0,,,2023-05-15 11:59:14,2023-05-15 11:59:15,0.530s,FAILED
+closeBrowser(),Chrome 113.0.0.0,,,2023-05-15 11:59:15,2023-05-15 11:59:15,0.104s,PASSED
+,,,,,,,
+Test Cases/Login Test - Scriptless Mode,Chrome 113.0.0.0,,,2023-05-15 11:59:15,2023-05-15 11:59:26,10.731s,PASSED
+"openBrowser(""https://example.testproject.io/"")",Chrome 113.0.0.0,,,2023-05-15 11:59:15,2023-05-15 11:59:22,6.764s,PASSED
+"setText(findTestObject(""Login page/Page_TestProject Demo/input_Full Name_name""), FullName)",Chrome 113.0.0.0,,,2023-05-15 11:59:22,2023-05-15 11:59:23,1.180s,PASSED
+"setText(findTestObject(""Login page/Page_TestProject Demo/input_Password_password""), Password)",Chrome 113.0.0.0,,,2023-05-15 11:59:23,2023-05-15 11:59:24,0.699s,PASSED
+"click(findTestObject(""Login page/Page_TestProject Demo/button_Login""))",Chrome 113.0.0.0,,,2023-05-15 11:59:24,2023-05-15 11:59:24,0.514s,PASSED
+"verifyElementPresent(findTestObject(""Login page/Page_TestProject Demo/h1_TestProject Example page""), 0)",Chrome 113.0.0.0,,,2023-05-15 11:59:24,2023-05-15 11:59:24,0.401s,PASSED
+"click(findTestObject(""Login page/Page_TestProject Demo/button_Logout""))",Chrome 113.0.0.0,,,2023-05-15 11:59:24,2023-05-15 11:59:25,1.024s,PASSED
+closeBrowser(),Chrome 113.0.0.0,,,2023-05-15 11:59:25,2023-05-15 11:59:26,0.117s,PASSED

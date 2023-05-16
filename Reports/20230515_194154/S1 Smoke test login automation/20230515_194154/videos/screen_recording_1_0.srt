@@ -1,0 +1,32 @@
+1
+00:00:00,411 --> 00:00:10,749
+1. openBrowser("https://example.testproject.io/")
+
+2
+00:00:10,755 --> 00:00:11,306
+5. maximizeWindow()
+
+3
+00:00:11,307 --> 00:00:12,671
+9. setText(findTestObject("Object Repository/Login page/Page_TestProject Demo/input_Full Name_name"), "Robert")
+
+4
+00:00:12,672 --> 00:00:12,674
+13. setText(findTestObject("Object Repository/Login page/Page_TestProject Demo/input_Password_password"), "12345")
+
+5
+00:00:12,674 --> 00:00:13,153
+17. click(findTestObject("Object Repository/Login page/Page_TestProject Demo/button_Login"))
+
+6
+00:00:13,153 --> 00:00:13,481
+21. verifyElementPresent(findTestObject("Object Repository/Login page/Page_TestProject Demo/h1_TestProject Example page"), 5)
+
+7
+00:00:13,481 --> 00:00:14,210
+25. click(findTestObject("Object Repository/Login page/Page_TestProject Demo/button_Logout"))
+
+8
+00:00:14,211 --> 00:00:14,348
+29. closeBrowser()
+
